@@ -1,7 +1,7 @@
 # PowerShell Script: Local User Creation
 
 ## Overview
-Automates the creation of a local Windows user and adds them to a specified group.
+Automates the creation of a local Windows user and adds them to a specified group without Active Directory Domain Services(AD DS).
 
 ## Prerequisites
 - Windows PowerShell
