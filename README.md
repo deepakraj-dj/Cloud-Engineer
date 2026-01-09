@@ -5,8 +5,8 @@ This repository highlights my hands-on projects, and scripts that demonstrate my
 
 ## Skills & Technologies
 - ***Amazon Web Services (AWS)***
--EC2(Deploying Instance)
--S3(Storage Management,Static Website Hosting)
+- EC2(Deploying Instance)
+- S3(Storage Management,Static Website Hosting)
 - ***Powershell***
 -Windows Automation
 - ***Python***
