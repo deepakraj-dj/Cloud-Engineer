@@ -1,5 +1,5 @@
 ## Overview
-This Project demonstrate hosting of an static website using S3
+This Project demonstrate hosting of an static website using S3 and Cloudfront for Content Deliver Network (CDN)
 
 ## Live Demo
 [View the hosted site here] (https://d1su39mqqdhlc7.cloudfront.net)
