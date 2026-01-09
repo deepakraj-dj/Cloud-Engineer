@@ -1,4 +1,4 @@
-## Project Overview
+## Overview
 This Project demonstrate hosting of an static website using S3
 
 ## Live Demo
