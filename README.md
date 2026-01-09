@@ -4,9 +4,9 @@ I am an aspiring Cloud Engineer passionate about building, automating, and deplo
 This repository highlights my hands-on projects, and scripts that demonstrate my growing skills in cloud technologies.
 
 ## Skills & Technologies
-- <u>***Amazon Web Services (AWS)***</u>
-- EC2(Deploying Instance)
-- S3(Storage Management,Static Website Hosting)
+- ***Amazon Web Services (AWS)***
+   -EC2(Deploying Instance)
+   -S3(Storage Management,Static Website Hosting)
 - ***Powershell***
-- Windows Automation
+   -Windows Automation
 - ***Python***
