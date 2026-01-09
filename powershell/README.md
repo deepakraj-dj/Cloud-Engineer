@@ -1,4 +1,4 @@
-# PowerShell Script: Local User Creation without Active Directory Domain Services
+# PowerShell Script: Local User Creation without Active Directory Domain Services 
 
 ## Overview
 Automates the creation of a local Windows user and adds them to a specified group without Active Directory Domain Services(AD DS).
@@ -9,11 +9,9 @@ Automates the creation of a local Windows user and adds them to a specified grou
 
 ## Usage
 
-1. Open PowerShell as Administrator.
-2. Run the script:
-
-   powershell
-   .\local_user_acc_creation.ps1
+1. Create an Shortcut on windows
+2. In the location of the item type powershell -ExecutionPolicy Bypass -File "##Script location"
+3. Apply the settings and run the script
    
 ## Notes
 - Ensure you have the necessary permissions.
