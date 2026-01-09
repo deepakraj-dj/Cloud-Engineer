@@ -8,5 +8,5 @@ This repository highlights my hands-on projects, and scripts that demonstrate my
 - EC2(Deploying Instance)
 - S3(Storage Management, Static Website Hosting)
 - ***Powershell***
--Windows Automation
+- Windows Automation
 - ***Python***
