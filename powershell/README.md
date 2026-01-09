@@ -15,5 +15,5 @@ Automates the creation of a local Windows user and adds them to a specified grou
 4. Apply the settings and run the script
    
 ## Notes
-- Ensure you have the necessary permissions.
+- Ensure the script is safe before providing admin priviledge.
 - Adjust script parameters as needed.
