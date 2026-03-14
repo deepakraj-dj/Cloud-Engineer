@@ -1,0 +1,34 @@
+name: Deploy to S3 and CloudFront
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ AKIAU3HUHDZATALMF6XH }}
+          aws-secret-access-key: ${{ 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 }}
+
+
+      - name: Sync files to S3
+        run: |
+          aws s3 sync . s3://${{ testss.html  }} \
+            --delete \
+            --exclude ".git/*" \
+            --exclude ".github/*"
+
+      - name: Invalidate CloudFront cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ E31UY9IVZT25JJ }} \
+            --paths "/*"
