@@ -24,7 +24,7 @@ jobs:
 
       - name: Copy files to S3
         run: |
-         aws s3 cp "AWS/S3 + Cloudfront/testss.html" s3://101resumedemo/testss.html -acl public-read
+         aws s3 cp "AWS/S3 + Cloudfront/testss.html" s3://101resumedemo/testss.html -- acl public-read
          
 
       - name: Invalidate CloudFront cache
