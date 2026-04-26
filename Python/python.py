@@ -1,3 +1,2 @@
-
-name="Deepak"
-print(f"Hello",{name});
+name="hello Deepak"
+print(name)
