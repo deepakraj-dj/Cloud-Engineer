@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-    # 👇 This restricts the pipeline to only trigger for changes in this folder
     paths:
       - 'AWS/Static Site + CDN + CI.CD/**'
 
