@@ -4,10 +4,13 @@ on:
   push:
     branches:
       - main
+    # 👇 This restricts the pipeline to only trigger for changes in this folder
+    paths:
+      - 'AWS/Static Site + CDN + CI.CD/**'
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-runs-on: ubuntu-latest
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -24,11 +27,10 @@ jobs:
 
       - name: Copy files to S3
         run: |
-         aws s3 cp "AWS/Static Site + CDN + CI.CD/testss.html" s3://101resumedemo/testss.html 
-         
+          aws s3 cp "AWS/Static Site + CDN + CI.CD/testss.html" s3://101resumedemo/testss.html 
 
       - name: Invalidate CloudFront cache
         run: |
           aws cloudfront create-invalidation \
-            --distribution-id ${{secrets.CLOUDFRONT_DISTRIBUTION_ID }} \
+            --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} \
             --paths "/*"
