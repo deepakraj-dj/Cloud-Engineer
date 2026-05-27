@@ -1,8 +1,8 @@
 
 #!/bin/bash
 
-TOKEN="8896515176:AAFXQf9RBJywlpGlwNSws3I1AfS2EDd3qDU"
-CHAT_ID="1292158455"
+TOKEN=""
+CHAT_ID=""
 echo "---------------------------------------------------"
 echo "...Health Checker..."
 sleep 2
