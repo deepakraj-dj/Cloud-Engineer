@@ -5,7 +5,7 @@ This repository highlights my hands-on projects, and scripts that demonstrate my
 
 ## Skills & Technologies
 - ***AWS*** (EC2,S3,IAM, CloudFront, CloudWatch, SNS, Lambda, API Gateway, DynamoDB, Auto Scaling, ELB)
-- ***Powershell*** Windows Automation
+- ***Powershell*** (Windows Automation)
 - ***Python***
 
 Cloud Platform: AWS (
