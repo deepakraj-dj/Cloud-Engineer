@@ -6,8 +6,8 @@
 <!-- Badges -->
 ![AWS](https://img.shields.io/badge/AWS-Cloud%20Engineer-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
 <div>
-<a href ="https://www.credly.com/badges/dee0a5b9-4a53-4301-b059-4052fb0442b2/public_url">
 ![CLF-C02](https://img.shields.io/badge/AWS-CLF--C02%20Certified-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900)
+<a href ="https://www.credly.com/badges/dee0a5b9-4a53-4301-b059-4052fb0442b2/public_url">
 </div>
 ![Open to Work](https://img.shields.io/badge/Status-Open%20to%20Opportunities-22c55e?style=for-the-badge)
 
