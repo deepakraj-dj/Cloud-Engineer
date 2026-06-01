@@ -1,12 +1,23 @@
 ## Overview of Myself and my Portfolio
 Hello!!!..I'm, Deepakraj welcome to my GitHub portfolio!  
-I am an self learning Cloud Engineer passionate about building, automating, and deploying solutions using ***AWS***, ***Python***, and ***PowerShell***.  
+I am an self learning Cloud Engineer passionate about building, automating, and deploying solutions using ***AWS*** 
 This repository highlights my hands-on projects, and scripts that demonstrate my growing skills in cloud technologies.
 
 ## Skills & Technologies
 - ***Amazon Web Services (AWS)***
-- EC2(Deploying Instance)
-- S3(Storage Management, Static Website Hosting)
+- EC2
+- S3
 - ***Powershell***
 - Windows Automation
 - ***Python***
+
+Cloud Platform: AWS (EC2, , IAM, CloudFront, CloudWatch, SNS, Lambda, API Gateway, Dy-
+namoDB, Auto Scaling, ELB)
+• Containerization: Docker
+• CI/CD & Automation: GitHub Actions
+• Scripting & Automation: Python (Boto3 SDK), Bash Scripting, PowerShell
+• Networking & Security: TCP/IP, DNS, SSL/TLS, Security Groups, Network ACLs, IAM Policies,
+VPC Configuration
+• Version Control: Git, GitHub
+• Operating Systems: Linux (Ubuntu), Windows Server
+• Infrastructure as Code (Learning): Terraform
