@@ -5,15 +5,16 @@ This repository highlights my hands-on projects, and scripts that demonstrate my
 
 ## Skills & Technologies
 - ***AWS*** (EC2,S3,IAM, CloudFront, CloudWatch, SNS, Lambda, API Gateway, DynamoDB, Auto Scaling, ELB)
+- ***Networking & Security*** (TCP/IP, DNS, SSL/TLS, Security Groups, Network ACLs, IAM Policies,
+VPC Configuration)
 - ***Scripting & Automation*** (Python (Boto3 SDK), Bash Scripting, PowerShell)
-- ***Python***
+- 
 
 Cloud Platform: AWS (
 • Containerization: Docker
 • CI/CD & Automation: GitHub Actions
 • 
-• Networking & Security: TCP/IP, DNS, SSL/TLS, Security Groups, Network ACLs, IAM Policies,
-VPC Configuration
+• 
 • Version Control: Git, GitHub
 • Operating Systems: Linux (Ubuntu), Windows Server
 • Infrastructure as Code (Learning): Terraform
