@@ -19,7 +19,7 @@ Please select the operation:
 ## Prerequisites
 - Windows PowerShell 5.1+
 - Must be run as Administrator
-- Local machine (not domain-joined AD 
+- Local machine (not domain-joined AD)
 
 ## Usage
 
