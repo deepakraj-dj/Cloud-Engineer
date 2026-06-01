@@ -2,7 +2,19 @@
 A PowerShell script for Desktop Support and System Administrators to create and delete local Windows user accounts through a simple interactive menu — no GUI, no manual clicking through Control Panel.
 
 ## Overview
-Automates the creation of a local Windows user and adds them to a specified group without Active Directory Domain Services(AD DS).
+Automates the creation of a local Windows user and adds them to a specified group for workstation pc
+
+## Preview
+
+*** User Account Manipulator ***
+
+1. Add an User
+
+2. Delete an User
+
+3. Exit
+
+Please select the operation:
 
 ## Prerequisites
 - Windows PowerShell
