@@ -1,4 +1,5 @@
-# PowerShell Script: Local User Creation without Active Directory Domain Services 
+# User Account Manipulator
+A PowerShell script for Desktop Support and System Administrators to create and delete local Windows user accounts through a simple interactive menu — no GUI, no manual clicking through Control Panel.
 
 ## Overview
 Automates the creation of a local Windows user and adds them to a specified group without Active Directory Domain Services(AD DS).
