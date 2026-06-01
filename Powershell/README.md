@@ -50,5 +50,5 @@ Please select the operation:
   Press / at any time to cancel and go back
 
 ## Notes
-- Ensure the script is safe before providing admin priviledge.
+- Always ensure any script is safe before providing admin priviledge.
 - Adjust script parameters as needed.
