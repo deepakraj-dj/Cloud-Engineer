@@ -12,11 +12,4 @@ This repository highlights my hands-on projects, and scripts that demonstrate my
 - ***CI/CD & Automation*** (GitHub Actions)
 - ***Containerization*** (Docker)
 
-Cloud Platform: AWS (
-• 
-• 
-• 
-• 
-• 
-• 
-• Infrastructure as Code (Learning): Terraform
+
