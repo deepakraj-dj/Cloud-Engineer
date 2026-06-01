@@ -4,9 +4,7 @@ I am an self learning Cloud Engineer passionate about building, automating, and 
 This repository highlights my hands-on projects, and scripts that demonstrate my growing skills in cloud technologies.
 
 ## Skills & Technologies
-- ***AWS*** (EC2,S3,IAM, CloudFront, CloudWatch, SNS, Lambda, API Gateway, DynamoDB, Auto Scaling, ELB)***
-- 
-- S3
+- ***AWS*** (EC2,S3,IAM, CloudFront, CloudWatch, SNS, Lambda, API Gateway, DynamoDB, Auto Scaling, ELB)
 - ***Powershell***
 - Windows Automation
 - ***Python***
