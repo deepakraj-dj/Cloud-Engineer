@@ -30,24 +30,24 @@ Please select the operation:
 ## Usage
 - Adding a User
 
-Select option 1 from the menu
-Enter the desired username
-Enter a secure password (hidden input)
-Confirm with Y to create
+  Select option 1 from the menu
+  Enter the desired username
+  Enter a secure password (hidden input)
+  Confirm with Y to create
 
-The script will:
+  The script will:
 
-Check if the username already exists
-Create the account using New-LocalUser
-Add the user to the Users group automatically
+  Check if the username already exists
+  Create the account using New-LocalUser
+  Add the user to the Users group automatically
 
 - Deleting a User
 
-Select option 2 from the menu
-Script loads and displays all non-system user accounts
-Enter the number next to the user you want to delete
-Confirm before deletion proceeds
-Press / at any time to cancel and go back
+  Select option 2 from the menu
+  Script loads and displays all non-system user accounts
+  Enter the number next to the user you want to delete
+  Confirm before deletion proceeds
+  Press / at any time to cancel and go back
 
 ## Notes
 - Ensure the script is safe before providing admin priviledge.
