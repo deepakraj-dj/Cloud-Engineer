@@ -17,8 +17,9 @@ Automates the creation of a local Windows user and adds them to a specified grou
 Please select the operation:
 
 ## Prerequisites
-- Windows PowerShell
-- Administrator privileges
+- Windows PowerShell 5.1+
+- Must be run as Administrator
+- Local machine (not domain-joined AD 
 
 ## Usage
 
