@@ -2,9 +2,9 @@ name: Deploy to S3 and CloudFront
 
 on:
   push:
-    branches:
+      branches:
       - main
-    paths:
+      paths:
       - 'AWS/Serverless_loginform Static Site + CDN + CI.CD/Frontend/*'
 
 jobs:
