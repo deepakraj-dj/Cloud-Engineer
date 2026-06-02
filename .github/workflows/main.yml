@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'AWS/Serverless_loginform Static Site + CDN + CI.CD/Frontend/**'
+    #paths:
+     # - 'AWS/Serverless_loginform Static Site + CDN + CI.CD/Frontend/**'
 
 jobs:
   deploy:
