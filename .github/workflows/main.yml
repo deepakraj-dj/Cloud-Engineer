@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'AWS/Static Site + CDN + CI.CD/**'
+      - 'AWS/Serverless_loginform Static Site + CDN + CI.CD/Frontend/**'
 
 jobs:
   deploy:
