@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths:
-      - 'AWS/Serverless_loginform Static Site + CDN + CI.CD/Frontend/**'
+      - '**/Frontend/**'
 jobs:
   deploy:
     runs-on: ubuntu-latest
