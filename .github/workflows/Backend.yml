@@ -4,7 +4,7 @@ on:
     branches:
       - dev
     paths:
-      - 'Backend (Python)/registerform_final.py'
+      - '**Backend (Python)/registerform_final.py'
 
 jobs:
   deploy:
