@@ -35,7 +35,7 @@ def lambda_handler(event,context):
             "DOB":dob
             }
             )
-        # REMOVED the intermediate return from here so execution continues downward
+        # REMOVED the intermediate return from here so execution continues downwar
         
     except Exception as d:
         print(f"Something Went Wrong,{d} Could not be inserted")
