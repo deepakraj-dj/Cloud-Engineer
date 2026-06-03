@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.13'   # ✅ Latest supported Lambda runtime
+          python-version: '3.13'   # ✅ Latest supported Lambda runtim
 
       - name: Zip only the source code
         run: |
