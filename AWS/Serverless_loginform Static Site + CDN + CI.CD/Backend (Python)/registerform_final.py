@@ -52,7 +52,7 @@ def lambda_handler(event,context):
         payload={
             "Username":usrname, # Fixed: using variable instead of literal string "usrname"
             "iat":int(ctime.timestamp()), # Fixed: converted to timestamp integer for JWT standard
-            "exp":int((ctime+expi).timestamp()) # Fixed: converted to timestamp integer for JWT standard
+            "exp":int((ctime+expi).timestamp()) # Fixed: converted to timestamp integer for JWT standar
         }
 
         token=jwt.encode(payload,secret_key,algorithm="HS256")
