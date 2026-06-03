@@ -20,7 +20,7 @@ jobs:
 
       - name: Zip only the source code
         run: |
-          cd "Backend (Python)"   # ✅ cd into the correct folder first
+          cd "AWS/Serverless_loginform Static Site + CDN + CI.CD/Backend (Python)/registerform_final.py/Backend (Python)"   # ✅ cd into the correct folder first
           zip ../deployment.zip registerform_final.py
 
       - name: Configure AWS credentials
