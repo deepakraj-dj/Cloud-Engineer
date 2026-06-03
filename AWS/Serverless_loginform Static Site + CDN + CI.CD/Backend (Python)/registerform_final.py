@@ -34,7 +34,7 @@ def lambda_handler(event,context):
             "DOB":dob
             }
             )
-        # REMOVED the intermediate return from here so execution continues downwa
+     
         
     except Exception as d:
         print(f"Something Went Wrong,{d} Could not be inserted")
@@ -49,9 +49,9 @@ def lambda_handler(event,context):
         ctime=datetime.datetime.now(datetime.timezone.utc)
         expi=datetime.timedelta(hours =1)
         payload={
-            "Username":usrname, # Fixed: using variable instead of literal string "usrname"
-            "iat":int(ctime.timestamp()), # Fixed: converted to timestamp integer for JWT standar
-            "exp":int((ctime+expi).timestamp()) # Fixed: converted to timestamp integer for JWT standar
+            "Username":usrname, 
+            "iat":int(ctime.timestamp()),
+            "exp":int((ctime+expi).timestamp()) 
         }
 
         token=jwt.encode(payload,secret_key,algorithm="HS256")
@@ -61,7 +61,7 @@ def lambda_handler(event,context):
             "statusCode": 200,
             "headers": {
             "Content-Type": "application/json",
-            "Set-Cookie": cookie # <-- This tells the browser to store it
+            "Set-Cookie": cookie 
         },
             "body": json.dumps({"message": "Cookie created successful!"})
     }
