@@ -1,3 +1,50 @@
-name: TEST
+name: Deploy Python to AWS Lambda
 
-on: [push]
+on:
+  push:
+    branches:
+      - dev # Triggers the deployment when you push to main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11' # Change this to match your Lambda runtime
+
+      - name: Install dependencies
+        run: |
+          # Install libraries into a temporary 'package' folder
+          # This is required because Lambda needs dependencies bundled locally
+          pip install -r requirements.txt -t ./package
+
+      - name: Zip function and dependencies
+        run: |
+          # 1. Go into the package folder and zip all dependencies
+          cd package
+          zip -r ../deployment_package.zip .
+          
+          # 2. Go back to the root and ADD your Python code to the zip
+          cd ..
+          zip -g deployment_package.zip lambda_function.py 
+          # Add more files here if needed: zip -g deployment_package.zip utils.py
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1 # Change this to your AWS region
+
+      - name: Update Lambda function code
+        run: |
+          # Use the AWS CLI to push the zip file to your Lambda function
+          aws lambda update-function-code \
+            --function-name my-python-lambda \
+            --zip-file fileb://deployment_package.zip
