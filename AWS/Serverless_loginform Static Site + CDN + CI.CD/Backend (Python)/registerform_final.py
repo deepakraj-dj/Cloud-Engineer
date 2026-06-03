@@ -51,7 +51,7 @@ def lambda_handler(event,context):
         expi=datetime.timedelta(hours =1)
         payload={
             "Username":usrname, # Fixed: using variable instead of literal string "usrname"
-            "iat":int(ctime.timestamp()), # Fixed: converted to timestamp integer for JWT standard
+            "iat":int(ctime.timestamp()), # Fixed: converted to timestamp integer for JWT standar
             "exp":int((ctime+expi).timestamp()) # Fixed: converted to timestamp integer for JWT standar
         }
 
