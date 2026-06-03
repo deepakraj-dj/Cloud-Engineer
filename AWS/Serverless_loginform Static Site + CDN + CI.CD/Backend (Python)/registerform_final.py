@@ -4,7 +4,6 @@ import boto3
 import datetime
 import jwt
 
-
 def lambda_handler(event,context):
     try:
         ds=event.get("body")
