@@ -22,6 +22,7 @@ jobs:
         run: |
           cd "AWS/Serverless_loginform Static Site + CDN + CI.CD/Backend (Python)"   # ✅ cd into the correct folder first
           zip ../deployment.zip registerform_final.py
+          cd ..
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
