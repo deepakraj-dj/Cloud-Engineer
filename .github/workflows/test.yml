@@ -9,8 +9,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-  steps:
-    -name: printing pwd
-     uses: actions/checkout@v4
-    
-  
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: print
+        run:
+          pwd
+       
