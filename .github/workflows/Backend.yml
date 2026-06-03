@@ -4,11 +4,9 @@ on:
     branches:
       - dev 
     paths: '**/Backend (Python)/registerform_final.py'
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
