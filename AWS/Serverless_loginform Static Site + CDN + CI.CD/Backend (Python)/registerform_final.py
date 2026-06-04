@@ -5,7 +5,7 @@ import datetime
 import jwt
 
 def lambda_handler(event,context):
-    try
+    try:
         ds=event.get("body")
         result=json.loads(ds)
         usrname=result.get("username")
