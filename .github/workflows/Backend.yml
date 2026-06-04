@@ -34,5 +34,5 @@ jobs:
       - name: Upload zip to AWS Lambda
         run: |
           cd "AWS/Serverless_loginform Static Site + CDN + CI.CD"
-          aws lambda update-function-code --function-name testlogin --zip-file fileb://./deployment.zip
+          aws lambda update-function-code --function-name lognform1 --zip-file fileb://./deployment.zip
           
