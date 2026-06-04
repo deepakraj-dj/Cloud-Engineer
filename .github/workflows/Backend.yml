@@ -22,7 +22,7 @@ jobs:
         run: |
           cd "AWS/Serverless_loginform Static Site + CDN + CI.CD/Backend (Python)"   # ✅ cd into the correct folder first
           zip ../deployment.zip registerform_final.py
-          cd ..
+         
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
@@ -32,5 +32,7 @@ jobs:
           aws-region: us-east-1
 
       - name: Upload zip to AWS Lambda
-        run:  aws lambda update-function-code --function-name testlogin --zip-file fileb://../deployment.zip
+        run: |
+          cd "AWS/Serverless_loginform Static Site + CDN + CI.CD"
+          aws lambda update-function-code --function-name testlogin --zip-file fileb://./deployment.zip
           
