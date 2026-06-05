@@ -2,7 +2,7 @@ name: Deploy Python to AWS Lambda
 on:
   push:
     branches:
-      - dev
+      - main
     paths:
       - '**Backend (Python)/registerform_final.py'
 
