@@ -71,8 +71,6 @@ Deployed a highly available web application with auto-scaling groups and elastic
 - ✅ Health checks and automatic instance replacement
 - ✅ SNS email alerts for scaling events
 
----
-
 
 ---
 
