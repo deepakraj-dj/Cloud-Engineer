@@ -31,7 +31,6 @@ AWS credentials are stored as GitHub Secrets.
 - AWS Lambda (Python)
 - DynamoDB
 - JWT
-- Bash
 - Bcrypt
 - CI/CD
 - Github Actions
