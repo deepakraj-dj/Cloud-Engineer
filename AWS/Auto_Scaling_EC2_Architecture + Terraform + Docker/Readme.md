@@ -20,7 +20,8 @@ reading the docs.
 ![Architecture Diagram](docs/Architecture_diagra.png)
 
 ## Tech Stack
-- AWS EC2, Auto Scaling Groups, ALB
+- AWS EC2, Auto Scaling Groups
+- ALB
 - Docker
 - ECR
 - SNS
