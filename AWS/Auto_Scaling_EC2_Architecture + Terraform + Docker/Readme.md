@@ -1,4 +1,4 @@
-# Auto-Scaling EC2 Architecture
+# Auto-Scaling containerized EC2 Architecture
 
 ## Overview
 This project simulates a production-grade like web infrastructure on AWS. The goal was to 
