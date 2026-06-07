@@ -1,7 +1,23 @@
 # Serverless Login/Registration System
 
 ## Overview
-Stateless auth flow using AWS Lambda + API Gateway
+
+This project is a fully serverless login and registration system — no EC2, no servers 
+to manage. The goal was to build a secure auth flow entirely on managed AWS services 
+and automate deployment end-to-end with CI/CD.
+
+The frontend is a static site delivered via S3 + CloudFront. The backend is a set of 
+Lambda functions sitting behind API Gateway, handling registration and login requests. 
+User data is stored in DynamoDB.
+
+Passwords are hashed with bcrypt before storage — plain text never touches the database. 
+Sessions are managed with JWTs so the backend stays completely stateless.
+The JWT are generated and created into an httponly cookie in the backend and sends to user to avoid javascript and XSS.
+
+Deployment is automated via GitHub Actions with separate pipelines for frontend and 
+backend. Path-specific triggers mean a CSS change won't kick off a Lambda deployment. 
+AWS credentials are stored as GitHub Secrets.
+
 
 ## Architecture
 
