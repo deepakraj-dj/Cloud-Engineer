@@ -44,7 +44,7 @@ AWS credentials are stored as GitHub Secrets.
 | POST | /login | Returns token |
 
 ## How to Deploy
-Steps here
+
 
 ## Security Considerations
-What you did to handle passwords, tokens, validation
+
