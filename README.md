@@ -1,4 +1,4 @@
-<div align="center">
+ <div align="center">
 
 <!-- Header Banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d2137,100:1e3a5f&height=200&section=header&text=Deepakraj&fontSize=60&fontColor=38bdf8&fontAlignY=38&desc=Cloud%20Engineer%20%7C%20AWS%20%7C%20Automation&descAlignY=58&descColor=7fa8cc" width="100%"/>
@@ -74,7 +74,7 @@ Deployed a highly available web application with auto-scaling groups and elastic
 
 ---
 
-### ⚡ Serverless_loginform Static Site + CDN + CI.CD
+### ⚡ Serverless Login System — Lambda + API Gateway + CI/CD
 > **Stack:** `Cloudfront` · `S3` · `Lambda` · `API Gateway` · `DynamoDB` · `Github Actions` · `JWT` · `Github Secrets`
 
 A Fully serverless login and registration system — no EC2, no servers to manage. The goal was to build a secure auth flow entirely on managed AWS services and automate deployment end-to-end with CI/CD.
