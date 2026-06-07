@@ -62,7 +62,7 @@ Currently   : Building hands-on AWS projects & expanding cloud skills
 
 ## 🚀 Featured Projects
 
-### ☁️ AWS Auto-Scaling Web Application
+### ☁️ Auto-Scaling Containerized EC2 Architecture
 > **Stack:** `EC2` · `ELB` · `Auto Scaling` · `CloudWatch` · `SNS`
 
 Deployed a highly available web application with auto-scaling groups and elastic load balancing. Configured CloudWatch alarms to trigger scale-out/scale-in events automatically based on CPU and traffic metrics — achieving zero-downtime during peak loads.
@@ -74,25 +74,15 @@ Deployed a highly available web application with auto-scaling groups and elastic
 
 ---
 
-### ⚡ Serverless REST API
-> **Stack:** `Lambda` · `API Gateway` · `DynamoDB` · `SNS`
+### ⚡ Serverless_loginform Static Site + CDN + CI.CD
+> **Stack:** `Cloudfront`. `S3` .`Lambda` · `API Gateway` · `DynamoDB` · `Github Actions` .`JWT` . `Github Secrets`
 
-Built a fully serverless CRUD API with event-driven architecture. API Gateway triggers Lambda functions that interact with DynamoDB, with SNS push notifications for real-time updates.
+Build an Fully serverless login and registration system — no EC2, no servers to manage. The goal was to build a secure auth flow entirely on managed AWS services and automate deployment end-to-end with CI/CD.
 
-- ✅ Sub-100ms cold start Lambda functions
-- ✅ DynamoDB single-digit millisecond latency
-- ✅ Cost-effective — pay only per request
-
----
-
-### 🐳 Containerized CI/CD Pipeline
-> **Stack:** `Docker` · `GitHub Actions` · `S3` · `ECR`
-
-End-to-end CI/CD pipeline that automatically builds Docker images, runs tests, and deploys to AWS on every `git push`. Infrastructure is fully code-driven with no manual steps.
-
-- ✅ Automated build → test → deploy on every push
-- ✅ Docker image versioning with ECR
-- ✅ Rollback support via GitHub Actions workflow
+- ✅ Auto-scales based on workload demand
+- ✅ JWT stored in HttpOnly cookies to prevent XSS attacks
+- ✅ Passwords hashed with bcrypt — never stored in plain text
+- ✅ Separate GitHub Actions pipelines for frontend and backend with path-specific triggers to avoid unnecessary deployments
 
 ---
 
