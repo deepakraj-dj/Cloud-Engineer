@@ -25,6 +25,7 @@ reading the docs.
 - Bash
 - Docker
 - ECR
+- Cloudwatch
 - SNS
 
 ## Features
