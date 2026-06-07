@@ -63,19 +63,19 @@ Currently   : Building hands-on AWS projects & expanding cloud skills
 ## 🚀 Featured Projects
 
 ### ☁️ Auto-Scaling Containerized EC2 Architecture
-> **Stack:** `EC2` · `ELB` · `Auto Scaling` · `CloudWatch` · `SNS`
+> **Stack:** `EC2` · `ELB` · `Auto Scaling` · `CloudWatch` · `Docker` · `ECR` · `BASH` · `SNS`  
 
-Deployed a highly available web application with auto-scaling groups and elastic load balancing. Configured CloudWatch alarms to trigger scale-out/scale-in events automatically based on CPU and traffic metrics — achieving zero-downtime during peak loads.
+Deployed a highly available web application with auto-scaling groups and elastic load balancing. Configured CloudWatch alarms to trigger scale-out/scale-in events automatically and used bash script to install and pull docker image and run — achieving zero-downtime during peak loads.
 
-- ✅ Auto-scales from 2 → N instances based on demand
-- ✅ Health checks and automatic instance replacement
-- ✅ SNS email alerts for scaling events
-
+- ✅ Auto-scales EC2 instances automatically based on CPU demand
+- ✅ Custom Docker image with pre-configured Nginx page stored in ECR
+- ✅ EC2 User Data script bootstraps instances automatically pulls Docker image from ECR and starts container on launch
+- ✅ CloudWatch alarms trigger scaling events with SNS email alerts
 
 ---
 
 ### ⚡ Serverless_loginform Static Site + CDN + CI.CD
-> **Stack:** `Cloudfront`. `S3` .`Lambda` · `API Gateway` · `DynamoDB` · `Github Actions` .`JWT` . `Github Secrets`
+> **Stack:** `Cloudfront` · `S3` · `Lambda` · `API Gateway` · `DynamoDB` · `Github Actions` · `JWT` · `Github Secrets`
 
 Build an Fully serverless login and registration system — no EC2, no servers to manage. The goal was to build a secure auth flow entirely on managed AWS services and automate deployment end-to-end with CI/CD.
 
