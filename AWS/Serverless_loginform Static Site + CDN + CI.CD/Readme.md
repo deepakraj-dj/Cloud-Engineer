@@ -1,4 +1,4 @@
-# Serverless Registration System with JWT and Hashing
+# Serverless Registration System with JWT and CI/CD
 
 ## Overview
 
