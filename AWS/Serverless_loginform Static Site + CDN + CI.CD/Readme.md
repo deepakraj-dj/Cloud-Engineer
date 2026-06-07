@@ -24,14 +24,23 @@ AWS credentials are stored as GitHub Secrets.
 ![Architecture Diagram](docs/Architecture_diagram.png)
 
 ## Tech Stack
-- AWS Lambda (Python)
+- AWS Cloudfront
+- S3
 - API Gateway
-- (DynamoDB? S3?)
+- AWS Lambda (Python)
+- DynamoDB
+- JWT
+- Bash
+- Bcrypt
+- CI/CD
+- Github Actions
+- Github Secrets
 
 ## Endpoints
+
 | Method | Route | Description |
 |--------|-------|-------------|
-| POST | /register | Creates new user |
+| POST | /signup | Creates new user |
 | POST | /login | Returns token |
 
 ## How to Deploy
