@@ -33,8 +33,9 @@ reading the docs.
 - Key technical decisions you made
 
 ## Prerequisites
-- AWS CLI configured
-- Docker installed
+- AWS account with appropriate IAM permissions
+- ECR repository created
+- SNS topic configured for email alerts
 
 ## How to Run
 Step by step commands to deploy this
