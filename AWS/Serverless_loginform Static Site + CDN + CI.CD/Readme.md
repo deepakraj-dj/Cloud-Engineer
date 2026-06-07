@@ -24,6 +24,7 @@ AWS credentials are stored as GitHub Secrets.
 ![Architecture Diagram](docs/Architecture_diagram.png)
 
 ## Tech Stack
+
 - AWS Cloudfront
 - S3
 - API Gateway
