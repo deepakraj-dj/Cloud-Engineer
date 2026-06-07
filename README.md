@@ -71,16 +71,6 @@ Deployed a highly available web application with auto-scaling groups and elastic
 - ✅ Health checks and automatic instance replacement
 - ✅ SNS email alerts for scaling events
 
----
-
-### 🔐 IAM Security Audit Automation
-> **Stack:** `IAM` · `Python (Boto3)` · `Security Groups` · `NACLs`
-
-Automated IAM compliance scripts that scan for over-privileged roles, unused credentials, and missing MFA. Enforces least-privilege principles across AWS accounts.
-
-- ✅ Detects unused IAM users and access keys
-- ✅ Flags policies with `*:*` admin permissions
-- ✅ Generates detailed CSV security reports
 
 ---
 

@@ -43,7 +43,7 @@ def lambda_handler(event,context):
             "body": json.dumps(f"Something Went Wrong,{d} Could not be inserted")
         }
 
-    ## JWT PAR
+    ## JWT P
     try:
         secret_key="OKISAD"
         ctime=datetime.datetime.now(datetime.timezone.utc)
