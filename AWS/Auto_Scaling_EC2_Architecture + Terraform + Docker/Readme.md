@@ -22,6 +22,7 @@ reading the docs.
 ## Tech Stack
 - AWS EC2, Auto Scaling Groups
 - ALB
+- Bash
 - Docker
 - ECR
 - SNS
