@@ -12,13 +12,18 @@ Auto Scaling is triggered by CloudWatch when CPU hits 80%, with SNS sending emai
 in real time. Load testing was done using stress-ng to verify the scaling actually fired 
 under simulated production load.
 
+Built to understand how large-scale systems handle unpredictable traffic 
+without downtime — and to get hands-on with AWS autoscaling beyond just 
+reading the docs.
+
 ## Architecture
 ![Architecture Diagram](docs/Architecture_diagra.png)
 
 ## Tech Stack
 - AWS EC2, Auto Scaling Groups, ALB
 - Docker
-- (any IaC tools you used)
+- ECR
+- SNS
 
 ## Features
 - What problem this solves
