@@ -77,7 +77,7 @@ Deployed a highly available web application with auto-scaling groups and elastic
 ### ⚡ Serverless_loginform Static Site + CDN + CI.CD
 > **Stack:** `Cloudfront` · `S3` · `Lambda` · `API Gateway` · `DynamoDB` · `Github Actions` · `JWT` · `Github Secrets`
 
-Build an Fully serverless login and registration system — no EC2, no servers to manage. The goal was to build a secure auth flow entirely on managed AWS services and automate deployment end-to-end with CI/CD.
+A Fully serverless login and registration system — no EC2, no servers to manage. The goal was to build a secure auth flow entirely on managed AWS services and automate deployment end-to-end with CI/CD.
 
 - ✅ Auto-scales based on workload demand
 - ✅ JWT stored in HttpOnly cookies to prevent XSS attacks
