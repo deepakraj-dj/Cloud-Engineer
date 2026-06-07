@@ -12,7 +12,7 @@ real-time SNS email alerts, implementing proactive cloud monitoring and observab
 confirming automated scaling triggers functioned as expected
 
 ## Architecture
-![Architecture Diagram](docs/Architecture diagra.png)
+![Architecture Diagram](docs/Architecture_diagra.png)
 
 ## Tech Stack
 - AWS EC2, Auto Scaling Groups, ALB
