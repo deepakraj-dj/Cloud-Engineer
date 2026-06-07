@@ -1,4 +1,4 @@
-# Serverless Login/Registration System
+# Serverless Registration System with JWT and Hashing
 
 ## Overview
 
