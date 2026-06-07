@@ -1,15 +1,16 @@
 # Auto-Scaling EC2 Architecture
 
 ## Overview
-* Architected a highly available, fault-tolerant web architecture utilizing Amazon EC2, Auto Scaling
-Groups (ASG), and an Application Load Balancer (ALB) to dynamically manage traffic.
-* Containerized an Nginx application using Docker and stored custom images in Amazon ECR; auto-
-mated instance provisioning via EC2 Launch Template User Data bash scripts to pull images and start
-containers without manual intervention (ECR)..
-* Configured AWS CloudWatch alarms to trigger scale-out events at 80% CPU utilization and deliver
-real-time SNS email alerts, implementing proactive cloud monitoring and observability
-* Validated auto-scaling behavior under load using stress-ng to simulate production-level CPU stress,
-confirming automated scaling triggers functioned as expected
+This project simulates a production-grade like web infrastructure on AWS. The goal was to 
+build something that could handle traffic spikes automatically without manual intervention.
+
+An Nginx app runs inside Docker containers, with images stored in ECR. When a new EC2 
+instance spins up, a User Data bash script pulls the latest image and starts the container 
+automatically — no SSH, no manual setup.
+
+Auto Scaling is triggered by CloudWatch when CPU hits 80%, with SNS sending email alerts 
+in real time. Load testing was done using stress-ng to verify the scaling actually fired 
+under simulated production load.
 
 ## Architecture
 ![Architecture Diagram](docs/Architecture_diagra.png)
