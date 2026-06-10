@@ -29,9 +29,14 @@ reading the docs.
 - SNS
 
 ## Features
-- What problem this solves
-- Key technical decisions you made
-
+- **Zero-downtime deployments** — the application scales up or down automatically as traffic changes, with no interruptions
+- **Fully hands-off EC2 provisioning** — launch templates and bash scripts handle everything, so you never manually set up an instance
+- **Smart instance initialization** that runs automatically every time a new instance spins up:
+  - System patches and updates
+  - Docker gets installed and ready
+  - AWS CLI v2 set up for seamless AWS integration
+  - Automatically pulls the latest container image from ECR and launches it
+- 
 ## Prerequisites
 - AWS account with appropriate IAM permissions
 - ECR repository created
