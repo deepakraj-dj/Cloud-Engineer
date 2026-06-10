@@ -36,7 +36,7 @@ reading the docs.
   - Docker gets installed and ready
   - AWS CLI v2 set up for seamless AWS integration
   - Automatically pulls the latest container image from ECR and launches it
-- 
+  
 ## Prerequisites
 - AWS account with appropriate IAM permissions
 - ECR repository created
